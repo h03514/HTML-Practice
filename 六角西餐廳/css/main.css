@@ -246,8 +246,74 @@ a{
     margin-bottom: 50px;
 }
 
-
 /* == End Visitors == */
+
+
+/* == Map == */
+.map{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FAFAFA;
+}
+.map h3{
+    text-align: center;
+    margin-bottom: 38px;    
+}
+
+.map .content{
+    overflow: hidden;
+}
+
+.mapimg{
+    margin: 0 20px 0 42px;
+}
+
+.mapimg img{
+    display: block;
+    padding-right: 20px;
+}
+
+.info h5{
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.info input{
+    width: 460px;
+    margin-bottom: 12px;
+}
+
+.inputbox input{
+    width: 15px;
+}
+
+.inputbox input:last-child{
+    margin-left: 3%;
+}
+
+.button{
+    margin-left: 81.5%;
+}
+
+.button button{
+    width: 70px;
+    height: 32px;
+    border-radius: 5px; 
+}
+
+.button button:first-child{
+    margin-right: 2%;
+    color: white;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.button button:last-child{
+    color:white;
+    background-color: #F56C23;
+}
+
+/* == End Map == */
 
 
 /* ===== End Content ===== */
