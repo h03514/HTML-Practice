@@ -189,11 +189,65 @@ a{
     margin-top: 1%;
 }
 
-
-
-
-
 /* == End cookerIntro == */
+
+
+/* == Visitors == */
+
+.visitors{
+    background-color: #EFE9E7;
+    overflow: hidden;
+
+}
+
+.visitors .col-4{
+    width: 32%;
+}
+
+
+.fistVisitor{
+    margin-right: 5px;
+    padding-left: 42px;
+}
+
+.secondVisitor{
+    margin-left: 30px;
+    padding: 0;
+}
+
+.thirdVisitor{
+    padding: 0;
+}
+
+.visitors h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.visitors h4{
+    text-align: left;
+}
+
+.visitors h5{
+    width: 220px;
+}
+
+.content img{
+    /* margin: 0 0 0 42px; */
+    float: left;
+}
+
+.text{
+    margin-left: 80px;
+}
+
+.mb50{
+    margin-bottom: 50px;
+}
+
+
+/* == End Visitors == */
 
 
 /* ===== End Content ===== */
