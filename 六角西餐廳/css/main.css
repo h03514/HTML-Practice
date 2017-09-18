@@ -322,6 +322,66 @@ a{
 
 
 /* ===== Footer ===== */
+
+.footerbg{
+    background-color: #EFE9E7;
+    overflow: hidden;
+    position: relative;
+}
+
+/* == about-six == */
+.about-six{
+    margin-left: 42px;
+    padding-top: 50px;
+    padding-right: 21px;
+    width: 299px;
+    float: left;
+}
+
+.about-six h3, .contact h3{
+    margin: 0;
+    font-size: 24px;
+    color:#3D1101 ;
+}
+
+/* == End about-six == */
+
+
+/* == contact == */
+
+.contact{
+    padding-top: 50px;
+    float: left;
+}
+
+.contact ul{
+    padding-left: 10%;
+}
+
+.contact li{
+    list-style: disc;
+}
+
+/* == End contact == */
+
+
+/* == logo == */
+.logo{
+    position: absolute;
+    top: 50px;
+    right: 42px;
+
+}
+/* == End logo == */
+
+/* == community == */
+
+.community li{
+    float: left;
+}
+
+/* == End community == */
+
 /* ===== End Footer ===== */
 
 
