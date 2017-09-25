@@ -1,88 +1,90 @@
-*{
-    font-family:Arial,Helvetica, "微軟正黑體";
+* {
+    font-family: Arial, Helvetica, "微軟正黑體";
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 1024px;
     margin: 0 auto;
 }
 
-.clearfix{
+.clearfix {
     clear: both;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
+
 /* ===== Header ===== */
 
-.header{
+.header {
     position: relative;
     height: 410px;
 }
 
-#logo{
+#logo {
     position: absolute;
     top: 16px;
     left: 42px;
 }
 
-#nav{
+#nav {
     position: absolute;
     top: 8px;
     right: 0px;
 }
 
-#nav li{
+#nav li {
     float: left;
     margin-right: 20px;
 }
 
-#nav a{
+#nav a {
     font-size: 16px;
     color: #D3D2D2;
 }
 
-.headerImg img{
+.headerImg img {
     width: 100%;
     height: 100%;
 }
 
-.headerSlogan{
+.headerSlogan {
     /* position: absolute; */
     margin: -28% 0% 0% 30%;
     width: 460px;
     height: 152px;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0, 0, 0, 0.35);
 }
 
-.headerSlogan h2{
+.headerSlogan h2 {
     padding-top: 20px;
 }
 
-.headerSlogan h2,.headerSlogan h5{
+.headerSlogan h2,
+.headerSlogan h5 {
     color: white;
     letter-spacing: 2px;
     text-align: center;
 }
 
-.headerSlogan h5{
+.headerSlogan h5 {
     margin-bottom: 5px;
 }
 
-.headerSlogan h5:last-child{
+.headerSlogan h5:last-child {
     margin-top: 5px;
 }
+
+
 /* ===== End Header ===== */
-
-
 
 
 /* ===== Content ===== */
@@ -90,22 +92,21 @@ a{
 
 /* == menuIntro == */
 
-.menuIntro{
+.menuIntro {
     position: relative;
     background-color: #EFE9E7;
     z-index: -666;
 }
 
-.menuTitle h3{
+.menuTitle h3 {
     margin: 0px auto;
     padding-top: 60px;
     width: 200px;
     background-color: #EFE9E7;
     text-align: center;
-
 }
 
-.underLine{
+.underLine {
     margin-top: -2%;
     margin-left: 28%;
     position: absolute;
@@ -115,203 +116,211 @@ a{
 }
 
 
-.row{
+.row {
     margin-top: 50px;
     padding: 0 62px;
     overflow: hidden;
 }
 
-.col-4{
+.col-4 {
     margin: 0 auto;
     padding: 0 15px;
     width: 33%;
     float: left;
 }
 
-.col-4 img{
+.col-4 img {
     display: block;
     margin: 0 auto;
 }
 
-.col-4 h4{
+.col-4 h4 {
     margin-top: 20px;
     margin-bottom: 0;
     text-align: center;
 }
 
-.col-4 h5{
+.col-4 h5 {
     margin-top: 11px;
     width: 260px;
 }
 
+
 /* == End menuIntro == */
 
+
 /* == cookerIntro == */
-.cookerIntro{
+
+.cookerIntro {
     background-color: #3D1101;
     overflow: hidden;
     height: 460px;
 }
 
-.cooker{
+.cooker {
     width: 410px;
     margin-left: 51%;
 }
 
-.cooker:first-child{
+.cooker:first-child {
     float: left;
     margin-left: 42px;
 }
 
-.cooker img{
+.cooker img {
     width: 470px;
     height: 460px;
 }
 
-.cooker h3,.cooker h5{
+.cooker h3,
+.cooker h5 {
     margin-left: 25px;
     margin-top: 5px;
     width: 410px;
     color: #EFE9E7;
 }
 
-.cooker h3{
+.cooker h3 {
     line-height: 20px;
 }
 
-.cooker h3:first-child{
+.cooker h3:first-child {
     margin-top: 30%;
     margin-bottom: 0;
 }
 
 
-.cooker h5:first-child{
+.cooker h5:first-child {
     margin-top: 1%;
 }
+
 
 /* == End cookerIntro == */
 
 
 /* == Visitors == */
 
-.visitors{
+.visitors {
     background-color: #EFE9E7;
     overflow: hidden;
-
 }
 
-.visitors .col-4{
+.visitors .col-4 {
     width: 32%;
 }
 
 
-.fistVisitor{
+.fistVisitor {
     margin-right: 5px;
     padding-left: 42px;
 }
 
-.secondVisitor{
+.secondVisitor {
     margin-left: 30px;
     padding: 0;
 }
 
-.thirdVisitor{
+.thirdVisitor {
     padding: 0;
 }
 
-.visitors h3{
+.visitors h3 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 32px;
 }
 
-.visitors h4{
+.visitors h4 {
     text-align: left;
 }
 
-.visitors h5{
+.visitors h5 {
     width: 220px;
 }
 
-.content img{
+.content img {
     /* margin: 0 0 0 42px; */
     float: left;
 }
 
-.text{
+.text {
     margin-left: 80px;
 }
 
-.mb50{
+.mb50 {
     margin-bottom: 50px;
 }
+
 
 /* == End Visitors == */
 
 
 /* == Map == */
-.map{
+
+.map {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #FAFAFA;
 }
-.map h3{
+
+.map h3 {
     text-align: center;
-    margin-bottom: 38px;    
+    margin-bottom: 38px;
 }
 
-.map .content{
+.map .content {
     overflow: hidden;
 }
 
-.mapimg{
+.mapimg {
     margin: 0 20px 0 42px;
 }
 
-.mapimg img{
+.mapimg img {
     display: block;
     padding-right: 20px;
 }
 
-.info h5{
+.info h5 {
     margin-top: 0;
     margin-bottom: 6px;
 }
 
-.info input{
+.info input {
     width: 460px;
     margin-bottom: 12px;
 }
 
-.inputbox input{
+.inputbox input {
     width: 15px;
 }
 
-.inputbox input:last-child{
+.inputbox input:last-child {
     margin-left: 3%;
 }
 
-.button{
+.button {
     margin-left: 81.5%;
 }
 
-.button button{
+.button button {
     width: 70px;
     height: 32px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
-.button button:first-child{
+.button button:first-child {
     margin-right: 2%;
     color: white;
     background-color: #000;
     opacity: 0.3;
 }
 
-.button button:last-child{
-    color:white;
+.button button:last-child {
+    color: white;
     background-color: #F56C23;
 }
+
 
 /* == End Map == */
 
@@ -319,18 +328,18 @@ a{
 /* ===== End Content ===== */
 
 
-
-
 /* ===== Footer ===== */
 
-.footerbg{
+.footerbg {
     background-color: #EFE9E7;
     overflow: hidden;
     position: relative;
 }
 
+
 /* == about-six == */
-.about-six{
+
+.about-six {
     margin-left: 42px;
     padding-top: 50px;
     padding-right: 21px;
@@ -338,438 +347,410 @@ a{
     float: left;
 }
 
-.about-six h3, .contact h3{
+.about-six h3,
+.contact h3 {
     margin: 0;
     font-size: 24px;
-    color:#3D1101 ;
+    color: #3D1101;
 }
+
 
 /* == End about-six == */
 
 
 /* == contact == */
 
-.contact{
-    padding:50px 0px;
+.contact {
+    padding: 50px 0px;
     float: left;
 }
 
-.contact ul{
+.contact ul {
     padding-left: 10%;
 }
 
-.contact li{
+.contact li {
     list-style: disc;
 }
+
 
 /* == End contact == */
 
 
 /* == logo == */
-.logo{
+
+.logo {
     position: absolute;
     top: 50px;
     right: 42px;
-
 }
+
+
 /* == End logo == */
+
 
 /* == community == */
 
-.community{
+.community {
     position: absolute;
     top: 125px;
     right: 42px;
 }
 
-.community li{
+.community li {
     float: left;
 }
 
+
 /* == End community == */
+
 
 /* ===== End Footer ===== */
 
 
 /* ======================================= Mobile ====================================== */
 
-@media screen and (max-width:736px){
-
-*{
-    box-sizing: border-box;
-}
-
-html{
-    -webkit-text-size-adjust: none;
-}
-
-.container{
-    width: 100%;
-}
-
-/* ===== Header ===== */
-
-.header{
-    position: relative;
-    height: 410px;
-}
-
-#logo{
-    position: absolute;
-    top: 16px;
-    left: 42px;
-}
-
-#nav{
-    position: absolute;
-    top: 8px;
-    right: 0px;
-}
-
-#nav li{
-    float: none;
-    margin-right: 0px;
-}
-
-#nav a{
-    font-size: 16px;
-    color: #D3D2D2;
-}
-
-.headerImg img{
-    width: 100%;
-    height: auto;
-}
-
-.headerSlogan{
-    position: absolute;
-    margin-top: -130px;
-    margin-left: 0px;
-    width: 100%;
-    height: auto;
-    background: rgba(0,0,0,0.35);
-}
-
-.headerSlogan h2{
-    padding-top: 10px;
-}
-
-.headerSlogan h2,.headerSlogan h5{
-    color: white;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.headerSlogan h5{
-    margin-bottom: 5px;
-}
-
-.headerSlogan h5:last-child{
-    margin-top: 5px;
-}
-/* ===== End Header ===== */
-
-
-
-
-/* ===== Content ===== */
-
-
-/* == menuIntro == */
-
-.menuIntro{
-    position: relative;
-    background-color: #EFE9E7;
-    z-index: -666;
-}
-
-.menuTitle h3{
-    margin: 0px auto;
-    padding-top: 60px;
-    width: 200px;
-    background-color: #EFE9E7;
-    text-align: center;
-
-}
-
-.underLine{
-    margin-top: -2%;
-    margin-left: 28%;
-    position: absolute;
-    z-index: -100;
-    width: 461px;
-    border-bottom: 2px solid #444;
-}
-
-
-.row{
-    margin-top: 50px;
-    padding: 0 62px;
-    overflow: hidden;
-}
-
-.col-4{
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 33%;
-    float: left;
-}
-
-.col-4 img{
-    display: block;
-    margin: 0 auto;
-}
-
-.col-4 h4{
-    margin-top: 20px;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.col-4 h5{
-    margin-top: 11px;
-    width: 260px;
-}
-
-/* == End menuIntro == */
-
-/* == cookerIntro == */
-.cookerIntro{
-    background-color: #3D1101;
-    overflow: hidden;
-    height: 460px;
-}
-
-.cooker{
-    width: 410px;
-    margin-left: 51%;
-}
-
-.cooker:first-child{
-    float: left;
-    margin-left: 42px;
-}
-
-.cooker img{
-    width: 470px;
-    height: 460px;
-}
-
-.cooker h3,.cooker h5{
-    margin-left: 25px;
-    margin-top: 5px;
-    width: 410px;
-    color: #EFE9E7;
-}
-
-.cooker h3{
-    line-height: 20px;
-}
-
-.cooker h3:first-child{
-    margin-top: 30%;
-    margin-bottom: 0;
-}
-
-
-.cooker h5:first-child{
-    margin-top: 1%;
-}
-
-/* == End cookerIntro == */
-
-
-/* == Visitors == */
-
-.visitors{
-    background-color: #EFE9E7;
-    overflow: hidden;
-
-}
-
-.visitors .col-4{
-    width: 32%;
-}
-
-
-.fistVisitor{
-    margin-right: 5px;
-    padding-left: 42px;
-}
-
-.secondVisitor{
-    margin-left: 30px;
-    padding: 0;
-}
-
-.thirdVisitor{
-    padding: 0;
-}
-
-.visitors h3{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 32px;
-}
-
-.visitors h4{
-    text-align: left;
-}
-
-.visitors h5{
-    width: 220px;
-}
-
-.content img{
-    /* margin: 0 0 0 42px; */
-    float: left;
-}
-
-.text{
-    margin-left: 80px;
-}
-
-.mb50{
-    margin-bottom: 50px;
-}
-
-/* == End Visitors == */
-
-
-/* == Map == */
-.map{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #FAFAFA;
-}
-.map h3{
-    text-align: center;
-    margin-bottom: 38px;    
-}
-
-.map .content{
-    overflow: hidden;
-}
-
-.mapimg{
-    margin: 0 20px 0 42px;
-}
-
-.mapimg img{
-    display: block;
-    padding-right: 20px;
-}
-
-.info h5{
-    margin-top: 0;
-    margin-bottom: 6px;
-}
-
-.info input{
-    width: 460px;
-    margin-bottom: 12px;
-}
-
-.inputbox input{
-    width: 15px;
-}
-
-.inputbox input:last-child{
-    margin-left: 3%;
-}
-
-.button{
-    margin-left: 81.5%;
-}
-
-.button button{
-    width: 70px;
-    height: 32px;
-    border-radius: 5px; 
-}
-
-.button button:first-child{
-    margin-right: 2%;
-    color: white;
-    background-color: #000;
-    opacity: 0.3;
-}
-
-.button button:last-child{
-    color:white;
-    background-color: #F56C23;
-}
-
-/* == End Map == */
-
-
-/* ===== End Content ===== */
-
-
-
-
-/* ===== Footer ===== */
-
-.footerbg{
-    background-color: #EFE9E7;
-    overflow: hidden;
-    position: relative;
-}
-
-/* == about-six == */
-.about-six{
-    margin-left: 42px;
-    padding-top: 50px;
-    padding-right: 21px;
-    width: 299px;
-    float: left;
-}
-
-.about-six h3, .contact h3{
-    margin: 0;
-    font-size: 24px;
-    color:#3D1101 ;
-}
-
-/* == End about-six == */
-
-
-/* == contact == */
-
-.contact{
-    padding:50px 0px;
-    float: left;
-}
-
-.contact ul{
-    padding-left: 10%;
-}
-
-.contact li{
-    list-style: disc;
-}
-
-/* == End contact == */
-
-
-/* == logo == */
-.logo{
-    position: absolute;
-    top: 50px;
-    right: 42px;
-
-}
-/* == End logo == */
-
-/* == community == */
-
-.community{
-    position: absolute;
-    top: 125px;
-    right: 42px;
-}
-
-.community li{
-    float: left;
-}
+@media screen and (max-width:736px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        -webkit-text-size-adjust: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+    /* ===== Header ===== */
+    .header {
+        position: relative;
+        height: auto;
+    }
+
+    #logo {
+        position: absolute;
+        top: 16px;
+        left: 42px;
+    }
+
+    #nav {
+        position: absolute;
+        top: 8px;
+        right: 0px;
+    }
+
+    #nav li {
+        float: none;
+        margin-right: 0px;
+    }
+
+    #nav a {
+        font-size: 16px;
+        color: #D3D2D2;
+    }
+
+    .headerImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .headerSlogan {
+        position: absolute;
+        margin-top: -130px;
+        margin-left: 0px;
+        width: 100%;
+        height: auto;
+        background: rgba(0, 0, 0, 0.35);
+    }
+
+    .headerSlogan h2 {
+        padding-top: 10px;
+    }
+
+    .headerSlogan h2,
+    .headerSlogan h5 {
+        color: white;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .headerSlogan h5 {
+        margin-bottom: 5px;
+    }
+
+    .headerSlogan h5:last-child {
+        margin-top: 5px;
+    }
+    /* ===== End Header ===== */
+    /* ===== Content ===== */
+    /* == menuIntro == */
+    .menuIntro {
+        position: relative;
+        background-color: #EFE9E7;
+        z-index: -666;
+    }
+
+    .menuTitle h3 {
+        margin: 0px auto;
+        padding-top: 60px;
+        width: 200px;
+        background-color: #EFE9E7;
+        text-align: center;
+    }
+
+    .underLine {
+        margin-top: -2%;
+        margin-left: 28%;
+        position: absolute;
+        z-index: -100;
+        width: 461px;
+        border-bottom: 2px solid #444;
+    }
+
+
+    .row {
+        margin-top: 50px;
+        padding: 0 62px;
+        overflow: hidden;
+    }
+
+    .col-4 {
+        margin: 0 auto;
+        padding: 0 15px;
+        width: 33%;
+        float: left;
+    }
+
+    .col-4 img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .col-4 h4 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .col-4 h5 {
+        margin-top: 11px;
+        width: 260px;
+    }
+    /* == End menuIntro == */
+    /* == cookerIntro == */
+    .cookerIntro {
+        background-color: #3D1101;
+        overflow: hidden;
+        height: 460px;
+    }
+
+    .cooker {
+        width: 410px;
+        margin-left: 51%;
+    }
+
+    .cooker:first-child {
+        float: left;
+        margin-left: 42px;
+    }
+
+    .cooker img {
+        width: 470px;
+        height: 460px;
+    }
+
+    .cooker h3,
+    .cooker h5 {
+        margin-left: 25px;
+        margin-top: 5px;
+        width: 410px;
+        color: #EFE9E7;
+    }
+
+    .cooker h3 {
+        line-height: 20px;
+    }
+
+    .cooker h3:first-child {
+        margin-top: 30%;
+        margin-bottom: 0;
+    }
+
+
+    .cooker h5:first-child {
+        margin-top: 1%;
+    }
+    /* == End cookerIntro == */
+    /* == Visitors == */
+    .visitors {
+        background-color: #EFE9E7;
+        overflow: hidden;
+    }
+
+    .visitors .col-4 {
+        width: 32%;
+    }
+
+
+    .fistVisitor {
+        margin-right: 5px;
+        padding-left: 42px;
+    }
+
+    .secondVisitor {
+        margin-left: 30px;
+        padding: 0;
+    }
+
+    .thirdVisitor {
+        padding: 0;
+    }
+
+    .visitors h3 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+
+    .visitors h4 {
+        text-align: left;
+    }
+
+    .visitors h5 {
+        width: 220px;
+    }
+
+    .content img {
+        /* margin: 0 0 0 42px; */
+        float: left;
+    }
+
+    .text {
+        margin-left: 80px;
+    }
+
+    .mb50 {
+        margin-bottom: 50px;
+    }
+    /* == End Visitors == */
+    /* == Map == */
+    .map {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #FAFAFA;
+    }
+    .map h3 {
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    .map .content {
+        overflow: hidden;
+    }
+
+    .mapimg {
+        margin: 0 20px 0 42px;
+    }
+
+    .mapimg img {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .info h5 {
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+
+    .info input {
+        width: 460px;
+        margin-bottom: 12px;
+    }
+
+    .inputbox input {
+        width: 15px;
+    }
+
+    .inputbox input:last-child {
+        margin-left: 3%;
+    }
+
+    .button {
+        margin-left: 81.5%;
+    }
+
+    .button button {
+        width: 70px;
+        height: 32px;
+        border-radius: 5px;
+    }
+
+    .button button:first-child {
+        margin-right: 2%;
+        color: white;
+        background-color: #000;
+        opacity: 0.3;
+    }
+
+    .button button:last-child {
+        color: white;
+        background-color: #F56C23;
+    }
+    /* == End Map == */
+    /* ===== End Content ===== */
+    /* ===== Footer ===== */
+    .footerbg {
+        background-color: #EFE9E7;
+        overflow: hidden;
+        position: relative;
+    }
+    /* == about-six == */
+    .about-six {
+        margin-left: 42px;
+        padding-top: 50px;
+        padding-right: 21px;
+        width: 299px;
+        float: left;
+    }
+
+    .about-six h3,
+    .contact h3 {
+        margin: 0;
+        font-size: 24px;
+        color: #3D1101;
+    }
+    /* == End about-six == */
+    /* == contact == */
+    .contact {
+        padding: 50px 0px;
+        float: left;
+    }
+
+    .contact ul {
+        padding-left: 10%;
+    }
+
+    .contact li {
+        list-style: disc;
+    }
+    /* == End contact == */
+    /* == logo == */
+    .logo {
+        position: absolute;
+        top: 50px;
+        right: 42px;
+    }
+    /* == End logo == */
+    /* == community == */
+    .community {
+        position: absolute;
+        top: 125px;
+        right: 42px;
+    }
+
+    .community li {
+        float: left;
+    }
 }
